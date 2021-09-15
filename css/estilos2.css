@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------layout-3column---------------------------------------*/
+header{
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #e9eef0;
+}
+
+.p1{
+    font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+main{
+    border: 0px solid red;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    flex-direction:row;
+}
+
+main article{
+    border: 0px solid rgb(0, 174, 255);
+    height: 500px;
+    width: 60%;
+    background-color: #7c8183;
+}
+
+.navegation{
+    border: 0px solid rgb(252, 172, 1);
+    width: 30%;
+    height: 500px;
+    background-color: #adb2b4;
+    padding: 0 20px;
+}
+
+.p2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 17px;
+}
+
+.p3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+
+aside{
+    padding: 0 20px;
+    border: 0px solid rgb(255, 0, 179);
+    width: 30%;
+    height: 500px;
+    background-color: #adb2b4;
+}
+
+footer{
+    height: 80px;
+    background-color: #e9eef0;
+    margin-top: -17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p4{
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 17px;
+}
